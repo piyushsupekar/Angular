@@ -1,0 +1,8 @@
+.carousel-item{
+     	width: 1600px;
+        height: 500px;
+        cursor: grab;
+        box-shadow: 5px 5px 5px black;
+        margin-top: 1%;
+}
+

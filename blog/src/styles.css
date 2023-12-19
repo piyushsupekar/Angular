@@ -1,0 +1,68 @@
+/* You can add global styles to this file, and also import other style files */
+*
+{
+    padding:0 ;
+    margin: 0;
+
+}
+:root
+{
+    --primary-color:#e7424b;
+    /* --secondary-color: #162328; */
+    --bs-tertiary-bg-rgb: white;
+}
+body{
+    font-family:"poppins",sans-serif;
+    background-color: whitesmoke;
+    /* background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   */
+}
+
+@media screen and (min-width: 320px) {
+    .logo{
+      padding-left: 10px;
+    }
+  }
+
+  
+@media screen and (min-width: 375px) {
+    .logo{
+      padding-left: 10px;
+    }
+  }
+
+
+  
+@media screen and (min-width: 420px) {
+    .logo{
+      padding-left: 10px;
+    }
+  }
+@media screen and (max-width:200px){
+    .navbar{
+        display: inline-block;
+    }
+}
+@media screen and (min-width:1024px){
+    .navbar{
+        display: inline-block;
+    }
+}
+@media screen and (min-width:1440px){
+    .navbar{
+        display: inline-block;
+    }
+}
+@media screen and (max-width:2000px){
+    .navbar{
+        display: block;
+    }
+}
+    
+@media screen and (min-width: 1024px) {
+    .logo{
+      margin-left: 140px;
+    }
+  }
