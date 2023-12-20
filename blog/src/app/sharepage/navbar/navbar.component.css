@@ -22,6 +22,8 @@
     color: #e7424b;
 }
 .logo{
+    max-width: 100%;
+    height: auto;
     width: 104px;
     height: auto;
     margin-top: 4px;
@@ -43,10 +45,17 @@
     --bs-navbar-nav-link-padding-x: 2rem;
     box-shadow: 0px 6px 10px #e7424b;
     font-size: larger;
+    max-width: 100%;
+    height: auto;
     
    
 }
-
+.dropdown{
+    transition: 0.2s;
+}
+.dropdown:hover{
+    transform: scale(1.1);
+}
 .dropdown-menu.active{
     border-radius: 10px;
     border-style: hidden;
@@ -78,10 +87,12 @@
     background-color: #e7424b;
     box-shadow: none;
     cursor: pointer;
+    transition: 0.5s;
 }
 .primary_cta:hover {
     box-shadow: none;
     background-color: #f48587;
+    transform: scale(0.5) rotate(360deg);
 }
 .bg-body-tertiary{
     --bs-bg-opacity: 1;

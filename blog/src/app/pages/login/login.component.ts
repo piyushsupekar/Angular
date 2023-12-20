@@ -19,9 +19,14 @@ export class LoginComponent implements OnInit {
 	  }
 
 	show(pf:any):void{
+    if(pf.name=="Dnyaneshwar" && pf.password=="123456"){
+
+      alert("login Succesfull");3
+    }
 	
-		alert("Name : "+ pf.name + " \n password : "+pf.password)
-	
+    else{
+      alert('Invalid User Name or Password');
+    }
 	};
 
 

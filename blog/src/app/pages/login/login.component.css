@@ -13,6 +13,7 @@ body{
     padding:100px;
     width: 1920px;
     height: 1080px;
+    margin-top: 8px;
   
 }
 .wrapper {
@@ -24,6 +25,10 @@ body{
   text-align: center;
   border: 1px solid rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(15px);
+  transition: 0.1s;
+}
+.wrapper:hover{
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, .5) ;
 }
 form {
   display: flex;
