@@ -34,7 +34,7 @@ p {
     }
 
 
-.container{
+.info{
         display: flex;
         margin-right: 1%;
         text-align: left;
@@ -106,11 +106,8 @@ h5:hover{
         color: #e7424b;
 }
 
-
-element.style {
-}
 .d-hotline.eager-load {
-    animation: none !important;
+    animation:none;
 }
 
 .d-hotline.h-btn {
@@ -139,3 +136,12 @@ element.style {
         background-color: #ffffff !important;
         z-index: 999;
     }
+    .c{
+        margin-left: 12%;
+        padding: 15px;
+    }
+
+.padd-for-cards{
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        --bs-gutter-x: 1.5rem;
+}

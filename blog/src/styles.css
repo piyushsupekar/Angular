@@ -10,6 +10,7 @@
     --primary-color:#e7424b;
     /* --secondary-color: #162328; */
     --bs-tertiary-bg-rgb: white;
+    --bs-gutter-x: -0.5rem;
 }
 body{
     font-family:"poppins",sans-serif;

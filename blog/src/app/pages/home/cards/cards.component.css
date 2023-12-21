@@ -1,0 +1,62 @@
+*{
+    padding-right: 0rem;
+}
+
+/* card css */
+.row {
+    background: none;
+    
+    /* margin-left: 10px; */
+    
+}
+
+.btn{
+    padding-right: 0rem;
+    text-align: center;
+    display: block;
+    max-width: 100%;
+    margin-inline-end: 10px;
+}
+.card ,.card-img-top{
+    margin-top: 10%;
+    border-radius: 30px;
+    text-align: center;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    margin: 10%;
+    
+}
+
+.card:hover{
+    box-shadow: 5.5px 5px 13px 0px #e7424b6e;
+    transform: scale(1.05);
+}
+
+
+
+/* image shadow and margin */
+.card-img-top{
+    margin-top: 0%;
+    box-shadow: none;
+    margin-inline-start: 0%;
+    margin: 0%;
+ 
+}
+.animate-shiny-button:hover{
+    -webkit-animation: shinyLoader 30s linear infinite;
+    animation: shinyLoader 30s linear infinite;
+    color: white;
+    background: linear-gradient(121.19deg,rgba(133,239,49,0) 25.73%,hsla(0,0%,100%,.3) 45.27%,rgba(133,239,49,0) 62.27%),#e7424b;
+    box-shadow:3.5px 4px 5px 0.2px #0000006e;
+}
+
+
+@keyframes shinyLoader {
+    0% {
+      background-position: -5000px 0;
+    }
+  
+    to {
+      background-position: 5000px 0;
+    }
+  }
